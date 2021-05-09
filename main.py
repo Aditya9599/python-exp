@@ -1,6 +1,9 @@
 import datetime
+import math
 def date():
     x = datetime.datetime.now()
-    print(x)
     return x
-print(date())
+
+def squareRoot(one):
+    a = math.sqrt(one)
+    return a
