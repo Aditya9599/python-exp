@@ -7,3 +7,7 @@ def date():
 def squareRoot(one):
     a = math.sqrt(one)
     return a
+
+def threeDates():
+    y = datetime.datetime.now()
+    return(y.strftime("%x"), y.strftime("%c"), y.strftime("%Y"))
